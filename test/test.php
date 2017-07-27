@@ -1,8 +1,9 @@
 <?php
+namespace test;
 
 class Test
 {
-var $name = "john";
+    var $name = "john";
     var $age =15;
 
 }
