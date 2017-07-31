@@ -2,9 +2,11 @@
 
 class Test
 {
-var $name = "john";
+    var $name = "john";
     var $age =15;
-
+    function getName(){
+        return $this->name;
+    }
 }
 /**
  * Created by PhpStorm.
